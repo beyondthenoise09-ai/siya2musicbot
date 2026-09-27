@@ -2,8 +2,7 @@
 
 Telegram voice chat music bot for group playback with Pyrogram and PyTgCalls.
 
-Maintainer: [SHNWAZDEV](https://t.me/kidzmc)
-Demo Bot: [@Yorinamusicbot]([https://t.me/SexySayaBot](https://t.me/Yorinamusicbot))
+Maintainer: 『 ＤＥＶＥＬＯＰＥＲ 〆 ＣＨＡＮＤＡＮ 』
 
 ## About
 
@@ -11,7 +10,7 @@ Saya Music is an advanced Telegram voice chat music bot with fast multi-source s
 
 ## Topics
 
-`music` `api` `docker` `telegram` `music-bot` `telegrambots` `shnwazdev` `railway` `pyrogram` `pytgcalls` `voice-chat` `streaming` `ffmpeg` `yt-dlp`
+`music` `api` `docker` `telegram` `music-bot` `telegrambots` `chandan` `railway` `pyrogram` `pytgcalls` `voice-chat` `streaming` `ffmpeg` `yt-dlp`
 
 ## Resources
 
@@ -27,9 +26,9 @@ Saya Music is an advanced Telegram voice chat music bot with fast multi-source s
 
 ## Activity
 
-- Stars: ![GitHub Repo stars](https://img.shields.io/github/stars/shnwazdeveloper/saya-music?style=flat)
-- Watchers: ![GitHub watchers](https://img.shields.io/github/watchers/shnwazdeveloper/saya-music?style=flat)
-- Forks: ![GitHub forks](https://img.shields.io/github/forks/shnwazdeveloper/saya-music?style=flat)
+- Stars: ![GitHub Repo stars](https://img.shields.io/github/stars/beyondthenoise09-ai/siya2musicbot?style=flat)
+- Watchers: ![GitHub watchers](https://img.shields.io/github/watchers/beyondthenoise09-ai/siya2musicbot?style=flat)
+- Forks: ![GitHub forks](https://img.shields.io/github/forks/beyondthenoise09-ai/siya2musicbot?style=flat)
 
 ## Overview
 
@@ -61,68 +60,3 @@ OWNER_ID=
 BOT_TOKEN=
 MONGO_DB_URI=
 LOGGER_ID=
-```
-
-## Recommended Environment Variables
-
-```env
-OWNER_USERNAME=
-BOT_USERNAME=
-BOT_NAME=Saya Music
-STRING_SESSION=
-COOKIE_URL=
-API_URL=https://pvtz.nexgenbots.xyz
-VIDEO_API_URL=https://api.video.nexgenbots.xyz
-API_KEY=
-DEEP_API=
-SUPPORT_CHANNEL=
-SUPPORT_CHAT=
-UPSTREAM_REPO=https://github.com/shnwazdeveloper/saya-music
-UPSTREAM_BRANCH=Master
-```
-
-Security note:
-- Never commit real tokens, session strings, cookies, or database URIs.
-- Store secrets only in `.env` or your deploy provider environment settings.
-
-## Local Run
-
-```bash
-git clone https://github.com/shnwazdeveloper/saya-music
-cd saya-music
-python -m venv venv
-source venv/bin/activate
-pip install -U pip
-pip install -r requirements.txt
-python -m SayaMusic
-```
-
-On Windows PowerShell:
-
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python -m SayaMusic
-```
-
-## Deploy on Railway
-
-1. Fork or push this repository.
-2. Create a new Railway project from the repo.
-3. Add environment variables from above.
-4. Start command:
-
-```bash
-python -m SayaMusic
-```
-
-This service runs as a worker bot and does not need a public web port.
-
-## Docker
-
-```bash
-cp sample.env .env
-docker build -t saya-music .
-docker run -d --name saya-music --env-file .env --restart unless-stopped saya-music
-```
